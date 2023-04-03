@@ -1,0 +1,642 @@
+[ec2-user@ip-172-31-9-27 home]$ history
+    1  ls
+    2  uname
+    3  whoami
+    4  clr
+    5  cls
+    6  ls -la ~/.ssh
+    7  ssh-keygen
+    8  ls -la ~/.ssh
+    9  sudo su -
+   10  exit
+   11  uname
+   12  whoami
+   13  exit
+   14  ssh ec2-user@13.59.136.170
+   15  ssh-copy-id ec2-user@13.59.136.170
+   16  ssh ec2-user@13.59.136.170
+   17  ls
+   18  mkdir folderA
+   19  ls
+   20  vi filea.sh
+   21  cat filea.sh
+   22  scp filea.sh ec2-user@13.59.136.170:/tmp/
+   23  scp -r folderA ec2-user@13.59.136.170:/tmp/
+   24  cd folderA/
+   25  vi a.sh
+   26  cat a.sh
+   27  cd ../
+   28  scp -r folderA ec2-user@13.59.136.170:/tmp/
+   29  cd folderA/
+   30  vi b.sh
+   31  scp b.sh ec2-user@13.59.136.170:/tmp/
+   32  cd ../
+   33  scp -r folderA/b.sh ec2-user@13.59.136.170:/tmp/folderA/
+   34  scp folderA/b.sh ec2-user@13.59.136.170:/tmp/folderA/
+   35  exit
+   36  ls
+   37  cd folderA/
+   38  ls
+   39  cd ../
+   40  cat > text.sh
+   41  ls
+   42  cat text.sh
+   43  cat > text.txt
+   44  ls
+   45  cat < text.txt
+   46  ls
+   47  cat test.txt
+   48  uname
+   49  whoami
+   50  pwd
+   51  dat
+   52  date
+   53  cal
+   54  ls
+   55  touch a.txt
+   56  ls
+   57  touch b.txt c.txt
+   58  ls
+   59  cat c.txt
+   60  cat > c.txt
+   61  ls
+   62  cat c.txt
+   63  cls
+   64  clr
+   65  clear
+   66  history
+   67  clear
+   68  ls
+   69  cat c.txt
+   70  cat > c.txt
+   71  cat c.txt
+   72  cat > c.txt
+   73  cat c.txt
+   74  cat >> c.txt
+   75  cat c.txt
+   76  mkdir chess
+   77  ls
+   78  rm c.txt
+   79  ls
+   80  cd folderA/
+   81  ls
+   82  cd ../
+   83  rmdir folderA/
+   84  rmdir chess/
+   85  ls
+   86  rm -r folderA/
+   87  ls
+   88  cat > d.txt
+   89  cat d.txt
+   90  cat > d.txt
+   91  cat d.txt
+   92  cat >> d.txt
+   93  cat d.txt
+   94  clear
+   95  history
+   96  clear
+   97  history
+   98  clear
+   99  cat > e.txt > cat > f.txt
+  100  cat e.txt f.txt
+  101  cat e.txt
+  102  ls
+  103  cat f.txt
+  104  cat > g.txt > h.txt
+  105  cat h.txt
+  106  cat g.txt
+  107  clear
+  108  history
+  109  clear
+  110  ls
+  111  cat g.txt
+  112  clea
+  113  clear
+  114  history
+  115  clear
+  116  ls
+  117  cat > i.txt
+  118  cat i.txt
+  119  cat >> i.txt
+  120  cat i.txt
+  121  cat > i.txt
+  122  cat i.txt
+  123  cat > i.txt
+  124  cat i.txt
+  125  cat > i.txt
+  126  cat i.txt
+  127  cat > i.txt
+  128  cat i.txt
+  129  cat >> i.txt
+  130  cat i.txt
+  131  clear
+  132  ls
+  133  cat i.txt
+  134  cat > i.txt
+  135  cat i.txt
+  136  cat >> i.txt
+  137  cat i.txt
+  138  clear
+  139  history
+  140  clear
+  141  ls
+  142  cat > f1.txt
+  143  cat f1.txt
+  144  clear
+  145  head f1.txt
+  146  head -n 20 f1.txt
+  147  tail f1.txt
+  148  tail -n 5 f1.txt
+  149  tail -f f1.txt
+  150  tail +2 f1.txt
+  151  ls
+  152  cat a.txt
+  153  cat b.txt
+  154  cat > a.txt
+  155  cat > b.txt
+  156  cat a.txt b.txt
+  157  cat a.txt > q.txt
+  158  ls
+  159  cat q.txt
+  160  cat a.txt b.txt > w.txt
+  161  ls
+  162  cat w.txt
+  163  wc w.txt
+  164  cat w.txt
+  165  tac w.txt
+  166  rev w.txt
+  167  ls movies/
+  168  ls -lR
+  169  ls -lF
+  170  cat -n w.txt
+  171  tail a.txt
+  172  cat f1.txt
+  173  tail +25 f1.txt
+  174  cat > data.log
+  175  ls
+  176  tail data.log
+  177  tail +25 data.log
+  178  ls
+  179  tail -n +25 data.log
+  180  history
+  181  tail data.log
+  182  tail -n 5 data.log
+  183  tail -n +25 data.log
+  184  ls -l
+  185  ls -l | tail -n 3
+  186  ls -l | tail -n +2
+  187  tail --version
+  188  head --version
+  189  clear
+  190  ls -l
+  191  tail -c 6 tailer.txt
+  192  tail -c 6 data.log
+  193  clear
+  194  ls -l
+  195  cat new.txt
+  196  cp new.txt new_11.txt
+  197  ls -lt
+  198  cat new_11.txt
+  199  clear
+  200  mv new_11.txt qwerty.txt
+  201  ls -lt
+  202  cat qwerty.txt
+  203  clear
+  204  help mv
+  205  help
+  206  info mv
+  207  clear
+  208  ls -l
+  209  cat a.txt b.txt
+  210  cmp a.txt b.txt
+  211  diff a.txt b.txt
+  212  diff -q a.txt b.txt
+  213  cat data.log
+  214  clear
+  215  ls -lF
+  216  mkdir news
+  217  ls -lt
+  218  clear
+  219  ls -lF
+  220  clear
+  221  grep 'devops' data.log
+  222  grep -i 'devops' data.log
+  223  ls -l
+  224  pwd
+  225  cd news/
+  226  ls
+  227  cat > dat.log
+  228  clear
+  229  grep -R 'DevOps' .
+  230  pwd
+  231  cd ..
+  232  pwd
+  233  grep -R 'DevOps' .
+  234  cd news/
+  235  grep -R 'DevOps'
+  236  clear
+  237  cd ..
+  238  grep -i -R 'devops'
+  239  grep -c -i 'devops' f1.txt
+  240  grep -i -c 'devops'
+  241  grep -c -i 'devops' data.log
+  242  grep -i -n 'devops' f1.txt
+  243  grep -i -h 'devops' *
+  244  grep -i -l 'devops' *
+  245  grep -l 'DevOps' *
+  246  clear
+  247  ls -lt
+  248  help
+  249  help mv
+  250  info mv
+  251  sudo yum install info
+  252  info mv
+  253  clear
+  254  ls -l
+  255  grep 'DevOps' data.log
+  256  grep -i 'devops' data.log
+  257  grep -n -i 'devops' data.log
+  258  grep -c -i 'devops' data.log
+  259  grep -i -R 'devops'
+  260  grep -i -h 'devops' *
+  261  grep -i -r -h 'devops' *
+  262  grep -i -R -l 'devops' *
+  263  grep -i -R -l 'devops'
+  264  grep -i -r -h 'devops'
+  265  grep -h 'DevOps'
+  266  grep -l 'DevOps'
+  267  grep -l 'DevOps'*
+  268  grep -l 'DevOps' *
+  269  grep -h 'DevOps' *
+  270  ls -l
+  271  ls movies/
+  272  ls news/
+  273  mv a.txt news/
+  274  ls -l
+  275  ls news/
+  276  cat news/a.txt
+  277  cat news/dat.log
+  278  clear
+  279  ls -l
+  280  mv movies/ news/
+  281  ls -l
+  282  ls news/
+  283  ls news/movies/
+  284  ls news/movies/aws/
+  285  cat > news/movies/aws/
+  286  cat > news/movies/aws/w
+  287  cat news/movies/aws/w
+  288  clear
+  289  history
+  290  clear
+  291  ls -l
+  292  ls news
+  293  grep -l 'DevOps' *
+  294  cd news/
+  295  pwd
+  296  ls
+  297  grep -l 'DevOps' *
+  298  cat movies/
+  299  ls movies/
+  300  ls movies/aws/
+  301  ls movies/devops/
+  302  ls movies/maven/
+  303  clear
+  304  ls -l
+  305  cd ..
+  306  ls -l
+  307  mkdir raw
+  308  ls -l
+  309  ls raw/
+  310  cp data.log raw/abc.txt
+  311  ls raw/
+  312  cat raw/abc.txt
+  313  clear
+  314  grep -l 'DevOps' *
+  315  mkdir cnn
+  316  grep -l 'DevOps' *
+  317  grep -h 'DevOps' *
+  318  clear
+  319  uname
+  320  whoami
+  321  clear
+  322  ls -l
+  323  cat f1.txt
+  324  clear
+  325  grep -i 'devops' f1.txt
+  326  grep -i 'devops' f1.txt data.log
+  327  ls -l
+  328  cd news/
+  329  ls
+  330  grep -i 'devops' f1.txt data.log news/dat.log
+  331  cd ..
+  332  grep -i 'devops' f1.txt data.log news/dat.log
+  333  grep -n -i 'devops' f1.txt data.log news/dat.log
+  334  cat -n f1.txt
+  335  clear
+  336  grep -i -n 'devops' f1.txt data.log news/dat.log
+  337  clear
+  338  sudo yum install grep
+  339  clear
+  340  sudo yum install info
+  341  clear
+  342  sudo yum install info
+  343  sudo yum install grep
+  344  clear
+  345  sudo yum install grep info
+  346  sudo yum install info grep
+  347  clear
+  348  grep -i 'devops' *
+  349  grep -i 'devops' .
+  350  grep -R 'DevOps' .
+  351  clear
+  352  ls
+  353  ls -la
+  354  clear
+  355  grep -h 'DevOps' .
+  356  grep -h 'DevOps' *
+  357  clear
+  358  grep -i 'Devops' *
+  359  clear
+  360  ls -l
+  361  vi edit.txt
+  362  ls -l
+  363  vi edit.txt
+  364  ls -l
+  365  ls -lt
+  366  vi -R edit.txt
+  367  view edit.txt
+  368  vi edit.txt
+  369  grep -R -i 'unix'
+  370  grep -r -i 'unix'
+  371  ls -lR
+  372  sed 's/unix/linux' edit.txt
+  373  info sed
+  374  help
+  375  sed 'S/unix/linux' edit.txt
+  376  sed 'unix/linux' edit.txt
+  377  sed "s/unix/linux" edit.txt
+  378  sed info
+  379  info sed
+  380  help
+  381  sed --help
+  382  sudo yum install sed
+  383  sed --version
+  384  sed -i 'unix/linux' edit.txt
+  385  sed '1d' edit.txt
+  386  cat edit.txt
+  387  sed '1-2d' edit.txt
+  388  sed -i '3d' edit.txt
+  389  cat edit.txt
+  390  sed -i '/s/unix/linux/' edit.txt
+  391  sed -i 's/unix/linux/' edit.txt
+  392  cat edit.txt
+  393  sed 's/linux/unix/' edit.txt
+  394  cat edit.txt
+  395  sed  's/linux/unix/' edit.txt
+  396  vi edit.txt
+  397  cat edit.txt
+  398  sed 's/linux/unix/' edit.txt
+  399  cat edit.txt
+  400  sed 's/linux/unix/g' edit.txt
+  401  cat edit.txt
+  402  sed -i 's/linux/unix/g' edit.txt
+  403  vi -R edit.txt
+  404  exit
+  405  clear
+  406  ls -lrt
+  407  ls -la
+  408  ls -lF
+  409  clear
+  410  ls -l
+  411  cat try.txt
+  412  ls -lt
+  413  cat edit.txt
+  414  grep 'unix' edit.txt
+  415  grep -i 'UNIX' edit.txt
+  416  grep -i -R 'UNIX'
+  417  grep -i -n 'UNIX' edit.txt
+  418  grep -i -l 'UNIX' *
+  419  grep -i -h 'UNIX' *
+  420  grep -i -c 'UNIX' edit.txt
+  421  grep -i -c 'UNIX' *
+  422  grep -i -c -R 'UNIX'
+  423  clear
+  424  grep -i -c 'UNIX' edit.txt
+  425  cat edit.txt
+  426  sed -i 's/unix/linux/' edit.txt
+  427  cat edit.txt
+  428  grep -i -R -c 'UNIX' edit.txt
+  429  clear
+  430  ls -lt
+  431  ls -lrt
+  432  cat filea.sh
+  433  clear
+  434  wc filea.sh
+  435  cat filea.sh
+  436  clear
+  437  history
+  438  clear
+  439  uname
+  440  cal
+  441  date
+  442  clear
+  443  ls -l
+  444  vi b.txt
+  445  cat b.txt
+  446  vi -R b.txt
+  447  view b.txt
+  448  ls -lt
+  449  cat edit.txt
+  450  clear
+  451  cat edit.txt
+  452  sed 's/linux/unix/' edit.txt
+  453  cat e
+  454  cat edit.txt
+  455  sed -i 's/unix/linux/' edit.txt
+  456  cat edit.txt
+  457  sed 's/linux/unix/' edit.txt
+  458  sed -i 's/linux/unix/' edit.txt
+  459  cat edit.txt
+  460  sed -i 's/linux/unix/g' edit.txt
+  461  cat edit.txt
+  462  sed '2d' edit.txt
+  463  cat edit.txt
+  464  sed '$d' edit.txt
+  465  sed '2,$d' edit.txt
+  466  cat edit.txt
+  467  sed -i '2,$d' edit.txt
+  468  cat edit.txt
+  469  clear
+  470  vi edit.txt
+  471  cat > qq.txt
+  472  vi edit.txt
+  473  cat edit.txt
+  474  sed 'd' edit.txt
+  475  cat edit.txt
+  476  sed '1d' edit.txt
+  477  sed '0d' edit.txt
+  478  sed '|d' edit.txt
+  479  sed '$d' edit.txt
+  480  clear
+  481  ls -lt
+  482  touch test.txt
+  483  ls -lt
+  484  vi test1.txt
+  485  ls -lt
+  486  vi test1.txt
+  487  ls -lt
+  488  sh test1.txt
+  489  mkdir abc  qwerty
+  490  ls -lt
+  491  chmod u+1 test.txt
+  492  chmod u+x test.txt
+  493  ls -lt
+  494  chmod 644 test.txt
+  495  ls -lt
+  496  chmod u+x test.txt
+  497  ls -lt
+  498  chmod u-x test.txt
+  499  ls -lt
+  500  chmod g+w test.txt qq.txt
+  501  ls -lt
+  502  chmod g-w o+w test.txt qq.txt
+  503  chmod g-w test.txt qq.txt
+  504  ls -lt
+  505  chmod g+w abc qwerty
+  506  ls -lt
+  507  chmod g-w abc qwerty
+  508  ls -lt
+  509  chmod g+w test.txt
+  510  ls -lt
+  511  chmod g-w+x test.txt
+  512  ls -lt
+  513  chmod g+w-x abc/ qwerty
+  514  ls -lt
+  515  ls abc/
+  516  cat > a.sh
+  517  ls -lt
+  518  sh a.sh
+  519  chmod u+x a.sh
+  520  ls -lt
+  521  sh a.sh
+  522  ls -lt
+  523  chmod u-w+x test.txt test1.txt
+  524  ls -lt
+  525  chmod 777 test.txt test1.txt
+  526  ls -lt
+  527  chmod 777 abc/ qwerty
+  528  ls -lt
+  529  ls -li
+  530  history
+  531  uname
+  532  whoami
+  533  pwd
+  534  cd ..
+  535  ls -l
+  536  ls -la
+  537  sudo su -
+  538  cd ec2-user/
+  539  cd /etc/
+  540  ls -la
+  541  cd ..
+  542  ls -la
+  543  cd ..
+  544  ls -la
+  545  cd ~
+  546  ls -la
+  547  cd ..
+  548  ls -la
+  549  cd ~
+  550  sudo adduser user1
+  551  cd ../ls -la
+  552  cd ../ls
+  553  cd ..
+  554  ls -la
+  555  cd ~
+  556  cat /etc/group
+  557  su - user1
+  558  sudo deluser --remove-home user1
+  559  sudo userdel user1
+  560  cd ..
+  561  ls -la
+  562  rm -r user1/
+  563  sudo rm -r user1/
+  564  ls -l
+  565  sudo su -
+  566  sudo -i
+  567  sudo useradd user1
+  568  sudo adduser user1
+  569  cd ~
+  570  cat /etc/group
+  571  cd ..
+  572  ls -l
+  573  sudo adduser user2
+  574  ls -l
+  575  su - user2
+  576  sudo groupadd groups
+  577  cd ~
+  578  vi /etc/group
+  579  cat /etc/group
+  580  cd ..
+  581  ls -l
+  582  sudo usermod -aG groups user2
+  583  id user2
+  584  sudo gpasswd -d user2 groups
+  585  id user2
+  586  sudo groupdel groups
+  587  cd ~
+  588  cat /etc/group
+  589  locate test
+  590  sudo apt install locate
+  591  sudo yum install apt
+  592  sudo yum install locate
+  593  sudo apt install mlocate
+  594  history
+  595  ls -l
+  596  chmod 777 a.sh b.txt
+  597  ls -l
+  598  clear
+  599  cat > usersgroups.txt
+  600  cat usersgroups.txt
+  601  clear
+  602  cd ..
+  603  ls -l
+  604  cat /etc/group
+  605  id user1
+  606  sudo groupadd group1
+  607  cat /etc/group
+  608  sudo usermod -aG group1 user1 user2
+  609  cat /etc/group
+  610  id user1
+  611  sudo usermod -aG group1 user1
+  612  id user1
+  613  sudo gpasswd -d user1 group1
+  614  id user1
+  615  sudo groupdel group1
+  616  cat /etc/group
+  617  clear
+  618  ls -l
+  619  sudo deluser user1
+  620  sudo userdel user1
+  621  ls -l
+  622  sudo userdel user2
+  623  ls -l
+  624  rm -r user1 user2
+  625  ls -l
+  626  ls user1
+  627  rm -r user1
+  628  sudo su -
+  629  ls -l
+  630  sudo rm -r user2
+  631  ls -l
+  632  sudo adduser newuser
+  633  ls -l
+  634  su - root
+  635  sudo su -
+  636  clear
+  637  sudo apt install mlocate
+  638  locate apache
+  639  locate -s
+  640  clear
+  641  history
