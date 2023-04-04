@@ -96,3 +96,233 @@ root@ip-172-31-13-14:/var/www/html# history
    26  ls -l
    27  java welcome
    28  history
+
+ubuntu@ip-172-31-13-14:~$ history
+    1  whoami
+    2  uname
+    3  clear
+    4  pwd
+    5  date
+    6  cal
+    7  sudo yum install cal
+    8  sudo apt install cal
+    9  sudo apt install ncal
+   10  clear
+   11  sudo su -
+   12  sudo -i
+   13  clear
+   14  cd ..
+   15  ls -l
+   16  cat /etc/group
+   17  clear
+   18  sudo apt install mlocate
+   19  locate apache
+   20  locate -c apache
+   21  locate -c *.txt
+   22  locate *.txt
+   23  clear
+   24  locate -s
+   25  locate --s
+   26  clear
+   27  sudo adduser user1
+   28  ls -l
+   29  sudo adduser user2
+   30  ls -l
+   31  clear
+   32  su - user1
+   33  sudo userdel user2
+   34  ls -l
+   35  su - user2
+   36  clear
+   37  ls -l
+   38  su - user2
+   39  clear
+   40  sudo rm -r user2
+   41  ls -l
+   42  sudo deluser --remove-home user1
+   43  ls -l
+   44  clear
+   45  cd ~
+   46  cat /etc/
+   47  cat /etc/sudoers
+   48  sudo cat /etc/sudoers
+   49  clear
+   50  sudo groupadd group1
+   51  cd ..
+   52  cat /etc/group
+   53  clear
+   54  cd ~
+   55  sudo adduser user1
+   56  cd ..
+   57  ls -l
+   58  cat /etc/group
+   59  sudo usermod -aG group1 user1
+   60  id user1
+   61  sudo gpasswd -d user1 group1
+   62  sudo groupdel group1
+   63  cat /etc/group
+   64  sudo deluser --remove-home user1
+   65  ls -l
+   66  clear
+   67  history
+   68  clear
+   69  ls -l
+   70  sudo apt install mlocate
+   71  locate apache
+   72  locate -c locate
+   73  locate -s
+   74  locate --s
+   75  man locate
+   76  sudo apt install plocate
+   77  plocate apache
+   78  plocate -c apache
+   79  mlocate -c apache
+   80  locate -c apache
+   81  clear
+   82  plocate -s
+   83  clear
+   84  find /home -name f1.txt
+   85  cat > f1.txt
+   86  find /home -name f1.txt
+   87  touch apache.txt apachenew.txt apac
+   88  ls -l
+   89  find . -name f1.txt
+   90  find /tmp -name f1.txt
+   91  ifconfig
+   92  find /home -type f
+   93  find . -type d
+   94  find . -type f -perm 0777 -print
+   95  ls -l
+   96  mkdir test
+   97  ls -l
+   98  chmod g+wx apac
+   99  ls -l
+  100  chmod ug+rwx apac
+  101  ls -l
+  102  touch test.txt
+  103  ls -l
+  104  mkdir test1
+  105  ls -l
+  106  chmod ugo+rwx test.txt test1/
+  107  ls -l
+  108  history
+  109  sudo apt install net-tools
+  110  ifconfig
+  111  ping www.ashokitech.com
+  112  ping www.facebook.com
+  113  curl www.google.com
+  114  wget www.google.com
+  115  ls -l
+  116  cat index.html
+  117  clear
+  118  sudo su
+  119  clear
+  120  ls -l
+  121  rm -r *
+  122  ls -l
+  123  man rm
+  124  touch f1.txt f2.txt
+  125  ls -l
+  126  rmdir *
+  127  rm -r *
+  128  ls
+  129  touch f1.txt f2.txt
+  130  ls
+  131  ls -l
+  132  rm *
+  133  ls -l
+  134  ls
+  135  clear
+  136  mkdir new && cd new
+  137  pwd
+  138  cd
+  139  pwd
+  140  mkdir new1 || cd new1
+  141  ls
+  142  clear
+  143  cd new
+  144  mkdir new2 && cd new2
+  145  cd ..
+  146  ls
+  147  cd ..
+  148  rmdir new
+  149  rm -r *
+  150  ls
+  151  mkdir new && cd new
+  152  mkdir new1
+  153  cd
+  154  ls
+  155  mkdir new2
+  156  ls
+  157  rmdir new
+  158  rm -r new
+  159  ls
+  160  ls new2
+  161  ls new2/
+  162  clear
+  163  rm -r *
+  164  ls
+  165  clear
+  166  ls
+  167  mkdir test | touch mkdir/file1.txt
+  168  mkdir test | touch test/file1.txt
+  169  ls
+  170  rmdir test/
+  171  ls test/
+  172  rm -r *
+  173  ls
+  174  mkdir test | touch test/file1.txt
+  175  ls
+  176  rm -r test/
+  177  ls
+  178  clear
+  179  ls
+  180  ls -la
+  181  clear
+  182  mkdir a | touch a/a.txt
+  183  ls a
+  184  vi a/a.txt
+  185  ls
+  186  ls a
+  187  cat a/a.txt
+  188  clear
+  189  docker
+  190  docker --version
+  191  java
+  192  java -version
+  193  apache2
+  194  apache2 -version
+  195  whcih docker
+  196  which apache2
+  197  which java
+  198  ifconfig
+  199  ip addr
+  200  nslookup www.google.com
+  201  curl www.google.com
+  202  clear
+  203  wget www.amazon.com
+  204  wget www.google.com
+  205  ls
+  206  rm a
+  207  rm -r a
+  208  ls
+  209  clear
+  210  cat index.html
+  211  clear
+  212  curl aws.amazon.com
+  213  curl https://www.google.co.in/
+  214  clear
+  215  curl https://www.google.co.in/
+  216  clear
+  217  ls
+  218  cat index.html
+  219  clear
+  220  rm *
+  221  ls
+  222  clear
+  223  history
+  224  clear
+  225  sudo su
+  226  nslookup google.com
+  227  clear
+  228  history
